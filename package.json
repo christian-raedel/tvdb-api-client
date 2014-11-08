@@ -1,0 +1,34 @@
+{
+  "name": "tvdb-api-client",
+  "version": "0.2.7",
+  "description": "thetvdb.com api client",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christian-raedel/tvdb-api-client.git"
+  },
+  "keywords": [
+    "thetvdb.com",
+    "api",
+    "client"
+  ],
+  "author": "Christian Rädel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christian-raedel/tvdb-api-client/issues"
+  },
+  "homepage": "https://github.com/christian-raedel/tvdb-api-client",
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "lodash": "^2.4.1",
+    "q": "^1.0.1",
+    "superagent": "^0.20.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^2.0.1"
+  }
+}
