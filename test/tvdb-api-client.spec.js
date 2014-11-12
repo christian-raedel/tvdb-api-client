@@ -22,7 +22,7 @@ describe('tvdb-api-client#fetchSeries', function () {
         .then(function (serieslist) {
             var item = _.find(serieslist, {id: 248812, language: 'de'});
             expect(item).to.have.property('name', 'Apartment 23');
-            expect(item).to.have.property('firstAired', 2012);
+            expect(item).to.have.property('firstAired', '2012-04-11');
             done();
         })
         .catch(done)
